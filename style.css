@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F7EE;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.navbar-toggler {
+    margin-right: 20px; 
+}
+
+@media (max-width: 700px) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 120px;       
+    }
+}
+
+
+@media (max-width: 700px) {
+    .footer .social-icons {
+        text-align: center; 
+        padding-bottom: 10px;
+        justify-content: center; 
+    }
+}
+
+
+@media (max-width: 700px) {
+    .text-content {
+        text-align: center;
+    }
+}
+
+
+hr {
+    height: 2px;
+    background-color: #72773E; 
+    width: 50%; 
+    margin: 20px auto; 
+}
+
+.testimonial-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.testimonial-card-body {
+    background-color: #72773E !important; 
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 25px;
+}
+
+
+
+.profile-img {
+    position: absolute;
+    top: -5px; 
+    left: -5px; 
+    border: 2px solid #F9F7EE;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+.card-body{
+    background: #CA6750;
+    border-radius: 20px; 
+    border-radius: 20px;
+    box-shadow: none; 
+    color: #333;
+}
+
+
+.modalidad-boton {
+    border-radius: 30px;
+    padding:  10px 70px;
+    font-size: medium;
+    margin-bottom: 15px;
+    margin-top: 15px; 
+    font-size: 28px;
+    background-color: #F9F7EE;
+}
+
+.elegir-boton {
+    background-color: #F9F7EE; 
+    border: 1px solid #CA6750; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.elegir-boton:hover {
+    background-color: #CA6750; 
+    color: #F9F7EE; 
+    border-color: #F9F7EE; 
+}
+
+
+
+
+.list-unstyled{
+    color: #F9F7EE;
+    text-align: justify center;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    padding: 1px;
+}
+
+
+
+.icono {
+    width: 37px;
+    height: 26px;
+    margin-right: 20px;
+}
+
+.border-lines{
+    border-right: 1px solid #CA6750;
+    border-left: 1px solid #CA6750;
+}
+
+
+
+.text-item {
+    font-size: 30px; 
+    display: flex; 
+    align-items: center;
+    line-height: 1.2
+}
+
+
+.navbar {
+    background-color: #72773E;
+}
+
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    gap: 50px; 
+}
+
+.nav-link-border {
+    border: 1px solid #F9F7EE; 
+    border-radius: 20px;       
+    padding: 10px 20px;       
+    width: 150px;              
+    text-align: center;        
+    display: inline-block;    
+    transition: all 0.3s ease;    
+}
+
+
+
+
+.nav-link-border:hover {
+    background-color: #72773E; 
+    color: #72773E; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+    text-decoration: none;
+
+}
+
+.rounded-image {
+    border-radius: 50px; 
+    width: 100%;
+    max-width: 100%; 
+}
+
+.text-content {
+    font-size: 20px; 
+    padding: 20px; 
+}
+
+
+
+.card-title {
+    color: #F9F7EE;
+    font-weight: 600;
+    margin-top: 20px; 
+    margin-bottom: 18px;
+    font-size: 20px; 
+}
+
+.card-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px; 
+    color: #F9F7EE;
+    padding-bottom: 5px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    filter: invert(100%);
+}
+
+
+.tamano-letra {
+    font-size: 25px; 
+    text-align: center; 
+}
+
+
+
+.footer {
+    background-color: #72773E; 
+    color: #F9F7EE; 
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.footer .footer-text {
+    margin: 0;
+    text-align: center;
+}
+
+.footer .social-icons {
+    text-align: center;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .footer .footer-text {
+        text-align: left; 
+    }
+    .footer .social-icons {
+        justify-content: flex-end; 
+        order: 2;
+    }
+}
+
+.footer .social-icons a {
+    margin: 0 15px; 
+}
+
+
+
+
