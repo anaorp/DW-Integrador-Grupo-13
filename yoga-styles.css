@@ -12,16 +12,12 @@ header {
 
 .logo {
     width: 60px;
-    height: auto;
+    height: 60px;
 }
-
-
-
 .nav-link.rounded-nav-link:hover {
     background-color:#F9F7EE;
     color: #72773E;
 }
-
 .nav-link.rounded-nav-link.active {
     background-color: #F9F7EE;
     color: #72773E;
@@ -82,7 +78,7 @@ header {
 
     .logo {
         width: 70px;
-        height: auto;
+        height: 70px;
     }
     header {
         padding: 0;
