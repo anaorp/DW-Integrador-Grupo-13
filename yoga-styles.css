@@ -100,7 +100,9 @@ header {
     position: relative;
 }
 .row p {
+ font-family: 'montserrat', sans-serif;
     text-align: center ;
+    font-size: 18px;
 }
 
 .contenedor1{
@@ -138,7 +140,8 @@ header {
     color: #F9F7EE;
     margin-top: 10px;
     margin-left: 30px;
-    font-family: monserrat;
+
+       font-family: 'montserrat', sans-serif;
   }
 
     footer {
