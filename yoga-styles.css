@@ -96,6 +96,8 @@ header {
 .row h3{
     text-decoration-line: underline;
     text-align: center;
+     margin: 0 auto 2rem;
+    position: relative;
 }
 .row p {
     text-align: center ;
