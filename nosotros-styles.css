@@ -16,7 +16,8 @@ nav {
     padding: 20px 50px;
 }
 .logo {
-    height: 70px;
+    height: 60px;
+    width:50px;
 }
 nav ul {
     float: right;
