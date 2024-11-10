@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+nav {
+    background:#72773E;
+    height: 100px;
+    width: 100%;
+}
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+    border-bottom: #F9F7EE;
+}
+.logo {
+    height: 70px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+   
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+nav ul li  a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: groove;
+}
+
+li a.active, li a:hover {
+    background: #CA6750;
+    transition:-55s ;
+    border-radius: 20px;
+    border-bottom: 20px;
+}
+.checkbtn {
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check {
+    display: none;
+}
+@media (max-width: 952){
+    .enlace {
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width:858px){
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width:100% ;
+        height: 100vh;
+        background: #72773E;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: -5%;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px;
+        line-height:10px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background:nome ;
+        color: #CA6750;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+.row {
+    text-align: center;
+}
+.row h3{
+    text-decoration-line: underline;
+    text-align: center;
+}
+.row p {
+    text-align: center ;
+}
+
+.contenedor1 {
+    background-color:#72773E;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+ .contenedor1 p{
+    text-align: left;
+    color: #fffffe;
+    font-family: montserrat;
+
+}
+.contenedor1 h3{
+    text-align:left;
+   
+    color: #F9F7EE;
+   
+}
+.contenedor1 img 
+{   width: 400px;
+    height: 90px;
+    justify-content: right;
+    border-radius: 20px;
+
+ }
+
+.contenedor2 {
+    background-color:#CA6750;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.contenedor2 p{
+    text-align: right;
+    font-family: montserrat;
+    margin-left: 10em;
+    color: #F9F7EE;
+}
+.contenedor2 h3{
+    text-align: right;
+   
+    color: #F9F7EE;
+}
+.contenedor2 img 
+{   width: 390px;
+    height: 90px;
+    justify-content: right;
+    border-radius: 20px;
+
+ }
+.contenedor3 {
+    background-color:#72773E;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+ .contenedor3 p{
+    text-align: left;
+    font-family: montserrat;
+    margin-right: 10em;
+    color: #F9F7EE;
+}
+.contenedor3 img 
+{   width: 450px;
+    height: 150px;
+    justify-content: right;
+    border-radius: 20px;
+    color: #F9F7EE;
+
+ }
+.contenedor3 h3{
+    text-align: left;
+    color: #F9F7EE;
+}
+
+.contenedor4 {
+    background-color:#CA6750;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+ .contenedor4 p{
+    text-align: right;
+    font-family: montserrat;
+    color: #F9F7EE;
+    margin-left: 10em;
+}
+.contenedor4 h3{
+    text-align: right;
+  
+    color: #F9F7EE;
+}
+.contenedor4 img 
+{   width: 400px;
+    height: 100px;
+    justify-content: left;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1100px;
+  
+ }
+ @media (min-width: 400px) {
+    .conteiner1 img{
+      width: 48%;
+      margin-bottom: 20px;
+
+    }
+    .contenedor1 p {
+        margin-right: 12em;
+    } 
+    .contenedor2 img{
+        width: 48%;
+    }
+    .contenedor2 p {
+        margin-left:12em ;
+    }
+    .contenedor3 img {
+        width:48%;
+    }
+    .contenedor3 p {
+        margin-right:8em;
+    }
+    .contenedor4 img{
+        width:48%;
+    }
+    .contendeor p {
+        margin-left: 8em;
+    }
+  }
+  .footer{
+    background-color: #72773E; 
+    color: white; 
+    text-align: center;
+    padding: 10px; 
+    position: relative;
+     bottom: 0;
+    width: 100%;
+    align-items: center ;
+    
+}
+ .footer a {
+    color: #fffffe;
+    padding: 20px;
+ }
+ 
