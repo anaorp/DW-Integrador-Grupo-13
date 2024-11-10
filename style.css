@@ -264,12 +264,12 @@ hr {
     background-size: cover;
 }
 
-    .desktop-image {
+.desktop-image {
         background-image: url('img/image.png'); 
         height: 700px; 
     }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .desktop-image {
         background-image: url('img/mobile.png'); 
         height: 300px; 
@@ -366,6 +366,7 @@ hr {
     }
 
 }
+
 
 
 
