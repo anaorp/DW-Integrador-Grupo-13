@@ -40,7 +40,6 @@ body {
     }
 }
 
-
 hr {
     height: 2px;
     background-color: #72773E; 
@@ -75,7 +74,7 @@ hr {
 
 
 
-.card-body{
+.modalidad-card{
     background: #CA6750;
     border-radius: 20px; 
     border-radius: 20px;
@@ -87,7 +86,7 @@ hr {
 .modalidad-boton {
     border-radius: 30px;
     padding:  10px 70px;
-    font-size: medium;
+    font-size: 32px;
     margin-bottom: 15px;
     margin-top: 15px; 
     font-size: 32px;
@@ -245,7 +244,7 @@ hr {
     padding-left: 15px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     .footer .footer-text {
         text-align: left; 
     }
@@ -257,6 +256,115 @@ hr {
 
 .footer .social-icons a {
     margin: 0 15px; 
+}
+
+.header-image {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+    .desktop-image {
+        background-image: url('img/image.png'); 
+        height: 700px; 
+    }
+
+@media (max-width: 767px) {
+    .desktop-image {
+        background-image: url('img/mobile.png'); 
+        height: 300px; 
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+.tamano-letra{
+    font-size: 14px;
+}
+
+    .modalidad-boton {
+        font-weight: bold;
+        padding: 5px 15px;
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        height: 50px;
+        width: 250px;
+    }
+
+    .modalidad-card {
+        padding: 1px 10px; 
+        margin-left: 3em; 
+        margin-right: 3em;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .list-unstyled{
+        margin-right: 35px;
+        margin-left: 15px;
+        padding-top: 12px;
+    }
+
+    .directions-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    
+    .border-lines {
+        border-left: 1px solid #CA6750; 
+        padding: 20px 0;
+        text-align: center;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .text-content {
+        font-size: 12px; 
+        padding-bottom: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .testimonial-card {
+        margin: 10px auto; 
+        
+    }
+
+    .profile-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-card-body h4.card-title {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        padding-bottom: 10px;
+    }
+
+
+    .testimonial-card-body .card-text {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        padding: 5px 0; 
+    }
+
+    .rounded-image {
+        width: 70% !important; 
+        margin: 0 auto !important;
+        padding-top: 0px;
+    }
+
 }
 
 
