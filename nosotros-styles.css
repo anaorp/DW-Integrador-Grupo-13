@@ -107,7 +107,7 @@ header {
     
     .carousel-item{
         object-fit: scale-down;
-        height: 100vh; 
+        height: 50vh; 
         width: 100%;
 
     }
