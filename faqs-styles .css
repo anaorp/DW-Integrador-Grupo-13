@@ -1,0 +1,266 @@
+:root {
+    --primary-green: #72773E;
+    --primary-coral: #CA6750;
+    --light-bg: #F9F7EE;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-bg);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-green);
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.nav-link.rounded-nav-link {
+    color: var(--light-bg) !important;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem !important;
+    border: 2px solid var(--light-bg);
+    border-radius: 25px;
+    margin: 0 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link.rounded-nav-link:hover {
+    background-color: var(--light-bg);
+    color: var(--primary-green) !important;
+}
+
+.nav-link.rounded-nav-link.active {
+    background-color: var(--light-bg);
+    color: var(--primary-green) !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navbar-toggler.custom-toggler {
+    border: none;
+    padding: 0.25rem 0.75rem;
+}
+
+.navbar-toggler-icon-custom {
+    width: 24px;
+    height: 24px;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 0;
+    background-color: var(--light-bg);
+}
+
+.main-title {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.main-description {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.decorative-line {
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto 2rem;
+    position: relative;
+}
+
+/* Acordeón FAQ */
+.accordion-item {
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 15px !important;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* caja cerrada */
+}
+
+.accordion-button {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--light-bg) !important;
+    padding: 1rem 1.25rem;
+    border-radius: 15px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--light-bg) !important;
+    box-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.25), /* sombra externa */
+        inset 0 0 10px rgba(0, 0, 0, 0.25); /* sombra interna */
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accordion-item:nth-child(odd) .accordion-button {
+    background-color: rgba(202, 103, 80, 0.90);
+}
+
+.accordion-item:nth-child(even) .accordion-button {
+    background-color: rgba(114, 119, 62, 0.85); 
+}
+
+.accordion-body {
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--light-bg);
+    background-color: inherit;
+}
+
+.accordion-item:nth-child(odd) .accordion-body {
+    background-color: rgba(202, 103, 80, 0.90);
+}
+
+.accordion-item:nth-child(even) .accordion-body {
+    background-color: rgba(114, 119, 62, 0.85);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-green);
+    color: var(--light-bg);
+    padding: 2rem 0;
+}
+
+.footer-text {
+    font-size: 19px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Iconos de redes */
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.social-icons a {
+    color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (min-width: 769px) {
+    .main-content .container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 4rem;
+    }
+
+    .home-icon {
+        display: none;
+    }
+}
+
+/* Versión Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #72773E;
+        padding: 1rem;
+        border-radius: 0 0 15px 15px;
+        margin-top: 0.5rem;
+    }
+
+    .nav-link.rounded-nav-link {
+        color: #F9F7EE !important;
+        border: 2px solid #F9F7EE !important;
+        font-size: 18px;
+        padding: 0.5rem 1rem !important;
+        margin: 0.3rem 0.5rem;
+        border-radius: 25px !important;
+    }
+
+    .nav-link.rounded-nav-link:hover,
+    .nav-link.rounded-nav-link.active {
+        background-color: #72773E;
+        color: #F9F7EE !important;
+        font-weight: 700;
+    }
+
+    .home-icon {
+        text-align: left;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-top: 0;
+    }
+
+    .home-icon-png {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    .footer-text {
+        text-align: center;
+    }
+    
+
+    header {
+        padding: 0.5 rem;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .main-description {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
