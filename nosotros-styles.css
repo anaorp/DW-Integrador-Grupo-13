@@ -15,21 +15,16 @@ header {
     width: 60px;
     height: auto;
 }
-
-
-
 .nav-link.rounded-nav-link:hover {
     background-color:#F9F7EE;
     color: #72773E;
 }
-
 .nav-link.rounded-nav-link.active {
     background-color: #F9F7EE;
     color: #72773E;
     font-weight: 700;
     font-size: 19px;
 }
-
 .navbar-toggler.custom-toggler {
     border: none;
     padding: 0.25rem 0.75rem;
