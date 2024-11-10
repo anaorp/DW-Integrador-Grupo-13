@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:'montserrat', sans-serif;
 }
-}
+
 
 header {
     background-color:#72773E;
@@ -138,11 +138,14 @@ img {
 }
 p{
     text-align: center;
-    font-family: montserrat;
+     font-family:'montserrat', sans-serif;
+    color: #F9F7EE;
 }
 h3{
     text-align: center;
     text-decoration: underline;
+    color: #F9F7EE;
+     font-family:'montserrat', sans-serif;
 }
 
   footer {
