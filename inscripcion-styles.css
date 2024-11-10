@@ -477,6 +477,14 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .form-control, .form-select {
+        font-size: 13px;
+    }
+
+    .btn-submit {
+        font-size: 12px;
+    }
 }
 
 
