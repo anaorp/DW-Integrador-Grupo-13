@@ -13,7 +13,7 @@ header {
 
 .logo {
     width: 60px;
-    height: auto;
+    height: 60px;
 }
 .nav-link.rounded-nav-link:hover {
     background-color:#F9F7EE;
