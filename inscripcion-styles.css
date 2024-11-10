@@ -14,19 +14,19 @@ body {
 /* Header */
 header {
     background-color: var(--primary-green);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .logo {
-    width: 150px;
+    width: 60px;
     height: auto;
 }
 
 .nav-link.rounded-nav-link {
     color: var(--light-bg) !important;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 500;
-    padding: 0.5rem 1.5rem !important;
+    padding: 0.3rem 2rem !important;
     border: 2px solid var(--light-bg);
     border-radius: 25px;
     margin: 0 0.5rem;
@@ -42,11 +42,17 @@ header {
     background-color: var(--light-bg);
     color: var(--primary-green) !important;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 19px;
 }
 
-.home-icon {
-    display: none;
+.navbar-toggler.custom-toggler {
+    border: none;
+    padding: 0.25rem 0.75rem;
+}
+
+.navbar-toggler-icon-custom {
+    width: 24px;
+    height: 24px;
 }
 
 /* Contenido principal */
@@ -308,7 +314,8 @@ textarea.form-control {
 footer {
     background-color: var(--primary-green);
     color: var(--light-bg);
-    padding: 2rem 0;
+    padding: 1rem 0;
+    padding-bottom: 0.5rem;
 }
 
 .footer-text {
@@ -326,6 +333,9 @@ footer {
 
 .social-icons a {
     color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: opacity 0.3s;
 }
 
@@ -350,63 +360,106 @@ footer {
 
     .navbar-collapse {
         background-color: #72773E;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 0 0 15px 15px;
-        margin-top: 0.5rem;
+        margin-top: 0.2rem;
     }
 
     .nav-link.rounded-nav-link {
         color: #F9F7EE !important;
-        border: 2px solid #F9F7EE !important;
+        border: none !important;
         font-size: 18px;
-        padding: 0.5rem 1rem !important;
-        margin: 0.3rem 0.5rem;
-        border-radius: 25px !important;
+        padding: 0.2rem 1rem !important;
+        text-align: left;
+        margin-left: 0;
     }
 
     .nav-link.rounded-nav-link:hover,
     .nav-link.rounded-nav-link.active {
-        background-color: #72773E;
+        background-color: transparent;
         color: #F9F7EE !important;
         font-weight: 700;
     }
 
-    /* Tamaño del menú hamburguesa y el logo */
-    .navbar-toggler-icon-custom {
-        width: 30px;
-        height: 30px;
+    header {
+        padding: 0;
+    }
+
+    header .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .main-content {
+        padding-top: 2.2rem ;
+    }
+
+    .main-content .container {
+        padding-top: 0rem;
+        padding-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .navbar {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        min-height: 0;
+    }
+
+    .navbar-toggler.custom-toggler {
+        padding: 0.1rem 0.4rem;
     }
 
     .logo {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: auto;
     }
 
-    .home-icon {
-        display: block;
-        text-align: left;
-        margin-top: 1rem;
-        padding-left: 1rem;
+    .container {
+        padding-top: 0rem;
+        padding-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    footer {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    footer .container {
         padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    .home-icon-png {
-        width: 40px;
-        height: 40px;
+    footer .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer .col-md-6:last-child {
+        order: 1;
+        margin-top: 0.5rem;
+    }
+
+    footer .col-md-6:first-child {
+        order: 2;
     }
 
     .social-icons {
         justify-content: center;
-        margin-top: 1rem;
+        margin-bottom: 1.2rem;
     }
-
+    
     .footer-text {
         text-align: center;
-    }
-
-    .container {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 12px;
+        font-weight: 0;
     }
 
     .main-title {
