@@ -231,11 +231,12 @@ header {
         margin-bottom: 1.2rem;
     }
     
-    .footer-text {
+    .footer-text mb-md-0 {
         text-align: center;
         margin-bottom: 0.2rem;
         font-size: 12px;
         font-weight: 0;
+        font-family: 'montserrat', sans-serif;
     }
 
 }
