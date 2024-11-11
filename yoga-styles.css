@@ -1,26 +1,45 @@
-*{
+:root {
+    --primary-green: #72773E;
+    --primary-coral: #CA6750;
+    --light-bg: #F9F7EE;
+}
+
+* {
     padding: 0;
     margin: 0;
-   
     box-sizing: border-box;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 header {
-    background-color:#72773E;
+    background-color: var(--primary-green);
     padding: 0.5rem 0;
 }
 
 .logo {
     width: 60px;
-    height: 60px;
+    height: auto;
 }
+
+.nav-link.rounded-nav-link {
+    color: var(--light-bg) !important;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 0.3rem 2rem !important;
+    border: 2px solid var(--light-bg);
+    border-radius: 25px;
+    margin: 0 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 .nav-link.rounded-nav-link:hover {
-    background-color:#F9F7EE;
-    color: #72773E;
+    background-color: var(--light-bg);
+    color: var(--primary-green) !important;
 }
+
 .nav-link.rounded-nav-link.active {
-    background-color: #F9F7EE;
-    color: #72773E;
+    background-color: var(--light-bg);
+    color: var(--primary-green) !important;
     font-weight: 700;
     font-size: 19px;
 }
@@ -34,119 +53,71 @@ header {
     width: 24px;
     height: 24px;
 }
-.nav-link.rounded-nav-link {
-    color: #F9F7EE;
-    font-size: 19px;
-    font-weight: 500;
-    padding: 0.5rem 2rem;
-    border: 2px solid #F9F7EE;
-    border-radius: 25px;
-    margin: 0 0.8rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-@media (max-width: 768px) {
-    .navbar {
-        padding-top: 0 ;
-        padding-bottom: 0 ;
-        min-height: 0;
-    }
-    .navbar-collapse {
-        background-color: #72773E;
-        padding: 0.5rem;
-        border-radius: 0 0 15px 15px;
-        margin-top: 0.2rem;
-    }
-
-    .nav-link.rounded-nav-link {
-        color: #F9F7EE;
-        border: none ;
-        font-size: 18px;
-        padding: 0.2rem 1rem;
-        text-align: left;
-        margin-left: 0;
-    }
-
-    .nav-link.rounded-nav-link:hover,
-    .nav-link.rounded-nav-link.active {
-        background-color: #72773E;
-        color: #F9F7EE;
-        font-weight: 700;
-    }
-    .navbar-toggler.custom-toggler {
-        padding: 0.1rem 0.4rem;
-    }
-
-    .logo {
-        width: 70px;
-        height: 70px;
-    }
-    header {
-        padding: 0;
-    }
-
-    header .container {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-}
 
 .row {
     text-align: center;
 }
-.row h3{
+
+.row h3 {
     text-decoration-line: underline;
     text-align: center;
-     margin: 0 auto 2rem;
+    margin: 0 auto 2rem;
     position: relative;
 }
+
 .row p {
- font-family: 'montserrat', sans-serif;
-    text-align: center ;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-size: 18px;
 }
 
-.contenedor1{
-    background-color: #72773E;
+.contenedor1 {
+    background-color: var(--primary-green);
     padding: 20px;
+}
 
-}
-.contenedor2{
-    background-color: #CA6750;
+.contenedor2 {
+    background-color: var(--primary-coral);
     padding: 20px;
 }
- .contenedor3{
-    background-color: #72773E;
+
+.contenedor3 {
+    background-color: var(--primary-green);
     padding: 20px;
- }
- .contenedor4 {
-    background-color:#CA6750;
+}
+
+.contenedor4 {
+    background-color: var(--primary-coral);
     padding: 20px;
- }
-  .rounded-image {
+}
+
+.rounded-image {
     width: 60%;
     height: 40%;
     max-width: 100%;
     margin: 30px;
     border-radius: 40px;
-  }
-  .text-content {
+}
+
+.text-content {
     font-size: 20px;
     padding: 20px;
-    color: #F9F7EE;
+    color: var(--light-bg);
     margin: 20px;
-  }
-  .text-white{
+}
+
+.text-white {
     font-size: 30px;
-    color: #F9F7EE;
+    color: var(--light-bg);
     margin-top: 10px;
     margin-left: 30px;
-      font-style: semibold italic;
-       font-family: 'montserrat', sans-serif;
-  }
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    footer {
-    background-color:#72773E;
-    color: #F9F7EE);
+footer {
+    background-color: var(--primary-green);
+    color: var(--light-bg);
     padding: 1rem 0;
     padding-bottom: 0.5rem;
 }
@@ -154,8 +125,8 @@ header {
 .footer-text {
     font-size: 19px;
     font-weight: 600;
-    color: #F9F7EE;
-     font-family: 'montserrat', sans-serif;
+    font-style: italic;
+    color: var(--light-bg);
 }
 
 .social-icons {
@@ -165,7 +136,7 @@ header {
 }
 
 .social-icons a {
-    color: #F9F7EE;
+    color: var(--light-bg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,25 +151,55 @@ header {
     width: 24px;
     height: 24px;
 }
-.social-icons {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1.5rem;
-}
-@media (max-width: 768px) {
 
-    .social-icons {
-        justify-content: center;
-        margin-bottom: 1.2rem;
+@media (max-width: 768px) {
+    .navbar {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        min-height: 0;
     }
-    
-    .footer-text {
-        text-align: center;
-        margin-bottom: 0.2rem;
-        font-size: 12px;
-        font-weight: 0;
-         font-family: 'montserrat', sans-serif;
+
+    .navbar-collapse {
+        background-color: var(--primary-green);
+        padding: 0.5rem;
+        border-radius: 0 0 15px 15px;
+        margin-top: 0.2rem;
     }
+
+    .nav-link.rounded-nav-link {
+        color: var(--light-bg) !important;
+        border: none !important;
+        font-size: 18px;
+        padding: 0.2rem 1rem !important;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .nav-link.rounded-nav-link:hover,
+    .nav-link.rounded-nav-link.active {
+        background-color: var(--primary-green);
+        color: var(--light-bg) !important;
+        font-weight: 700;
+    }
+
+    .navbar-toggler.custom-toggler {
+        padding: 0.1rem 0.4rem;
+    }
+
+    .logo {
+        width: 70px;
+        height: auto;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
     footer {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
@@ -231,18 +232,10 @@ header {
         margin-bottom: 1.2rem;
     }
     
-    .footer-text mb-md-0 {
+    .footer-text {
         text-align: center;
         margin-bottom: 0.2rem;
         font-size: 12px;
         font-weight: 0;
-        font-family: 'montserrat', sans-serif;
     }
-
 }
- 
- .footer a {
-    color: #fffffe;
-    padding: 20px;
- }
- 
