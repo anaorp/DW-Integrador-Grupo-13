@@ -11,7 +11,6 @@ body {
     background-color: #F9F7EE;
 }
 
-/* Header y Navbar styles */
 .navbar {
     background-color: #72773E;
 }
@@ -59,7 +58,6 @@ header {
     height: 24px;
 }
 
-/* Main content styles */
 hr {
     height: 2px;
     background-color: #72773E; 
@@ -78,7 +76,6 @@ hr {
     padding: 20px; 
 }
 
-/* Testimonial styles */
 .testimonial-card {
     background-color: transparent;
     border: none;
@@ -117,7 +114,6 @@ hr {
     padding-bottom: 5px;
 }
 
-/* Modalidad styles */
 .modalidad-card {
     background: #CA6750;
     border-radius: 20px;
@@ -146,7 +142,6 @@ hr {
     border-color: #F9F7EE; 
 }
 
-/* List styles */
 .list-unstyled {
     color: #F9F7EE;
     text-align: justify center;
@@ -173,7 +168,6 @@ hr {
     line-height: 1.2;
 }
 
-/* Carousel styles */
 .carousel-control-prev,
 .carousel-control-next {
     width: 30px;
@@ -187,13 +181,11 @@ hr {
     filter: invert(100%);
 }
 
-/* Typography */
 .tamano-letra {
     font-size: 22px; 
     text-align: center; 
 }
 
-/* Header image styles */
 .header-image {
     width: 100%;
     background-position: center;
@@ -205,7 +197,6 @@ hr {
     height: 700px; 
 }
 
-/* Footer styles */
 footer {
     background-color: var(--primary-green);
     color: var(--light-bg);
@@ -242,9 +233,8 @@ footer {
     height: 24px;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
-    /* Navbar mobile styles */
+    
     .navbar-collapse {
         background-color: var(--primary-green);
         padding: 0.5rem;
@@ -292,7 +282,6 @@ footer {
         height: auto;
     }
 
-    /* Footer mobile styles */
     footer {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
