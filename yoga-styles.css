@@ -154,9 +154,9 @@ header {
 .footer-text {
     font-size: 19px;
     font-weight: 600;
-    font-style: italic;
     color: #F9F7EE;
      font-family: 'montserrat', sans-serif;
+    text-aling:left;
 }
 
 .social-icons {
