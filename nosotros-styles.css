@@ -111,7 +111,9 @@ footer {
     font-weight: 600;
     font-style: italic;
     color: var(--light-bg);
-    margin-bottom: 0.2rem;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 0;
 }
 
 .social-icons {
@@ -137,7 +139,21 @@ footer {
     height: 24px;
 }
 
-/* Media Queries */
+footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+footer .row {
+    width: 100%;
+    margin: 0;
+}
+
+footer .col-md-6 {
+    padding: 0 15px;
+}
+
 @media (max-width: 768px) {
     .navbar {
         padding-top: 0;
@@ -192,13 +208,14 @@ footer {
     }
 
     footer .container {
-        padding: 0;
+        padding: 0 15px;
     }
 
     footer .row {
         display: flex;
         flex-direction: column;
         margin: 0;
+        align-items: center;
     }
 
     footer .col-md-6:last-child {
@@ -219,5 +236,6 @@ footer {
         text-align: center;
         font-size: 12px;
         font-weight: 400;
+        margin-right: 0;
     }
 }
