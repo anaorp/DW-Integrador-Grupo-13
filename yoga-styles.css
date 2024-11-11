@@ -156,6 +156,7 @@ header {
     font-weight: 600;
     font-style: italic;
     color: #F9F7EE;
+     font-family: 'montserrat', sans-serif;
 }
 
 .social-icons {
@@ -197,6 +198,7 @@ header {
         margin-bottom: 0.2rem;
         font-size: 12px;
         font-weight: 0;
+         font-family: 'montserrat', sans-serif;
     }
     footer {
         padding-top: 0.5rem;
