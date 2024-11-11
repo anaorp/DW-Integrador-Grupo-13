@@ -159,8 +159,9 @@ h3{
 .footer-text {
     font-size: 19px;
     font-weight: 600;
-    font-style: italic;
+    font-family:'montserrat', sans-serif;
     color: #F9F7EE;
+    
 }
 
 .social-icons {
@@ -202,6 +203,8 @@ h3{
         margin-bottom: 0.2rem;
         font-size: 12px;
         font-weight: 0;
+        font-family:'montserrat', sans-serif;
+        
     }
     footer {
         padding-top: 0.5rem;
