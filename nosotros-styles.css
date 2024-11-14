@@ -74,14 +74,15 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-auto-rows: 50px;
     gap: 30px;
-    justify-content: center;
+    justify-items: center:
+    align-items: center
 }
 
 .gallery__container img {
     height: 100%;
     width: 90px;
     object-fit: cover;
-    justify-content: center;
+   
 }
 
 .contenedor {
