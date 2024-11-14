@@ -81,6 +81,7 @@ header {
     height: 100%;
     width: 90px;
     object-fit: cover;
+    justify-content: center;
 }
 
 .contenedor {
