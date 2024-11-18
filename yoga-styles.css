@@ -217,13 +217,15 @@ font-family:'montserrat', sans-serif ;
      margin: 20px auto;
       padding: 20px;
        background-color: #CA6750; 
-       border-radius: 10px; } 
+       border-radius: 10px; 
+            } 
        .contenedor4 img { 
         max-width: 20%;
          height: auto; 
          flex: 1 1 300px;
           margin-right: 10px; 
-          border-radius: 30px; }
+          border-radius: 30px;
+       }
 .contenido-texto { flex: 2 1 400px; 
     text-align: left; 
     color: var(--light-bg);
@@ -252,29 +254,6 @@ font-family:'montserrat', sans-serif ;
      } 
 }
 
-.rounded-image {
-    width: 60%;
-    height: 40%;
-    max-width: 100%;
-    margin: 30px;
-    border-radius: 40px;
-}
-
-.text-content {
-    font-size: 20px;
-    padding: 20px;
-    color: var(--light-bg);
-    margin: 20px;
-}
-
-.text-white {
-    font-size: 30px;
-    color: var(--light-bg);
-    margin-top: 10px;
-    margin-left: 30px;
-    font-style: italic;
-    font-family: 'Montserrat', sans-serif;
-}
 
 footer {
     background-color: var(--primary-green);
