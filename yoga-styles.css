@@ -97,7 +97,7 @@ h1 {
 }
      .contenedor1 img {
         order: 2; 
-        max-width: 40%; 
+        max-width: 60%; 
         height: auto; flex: 1 1 300px; 
         margin-left: 20px; 
         border-radius: 20px;
@@ -141,7 +141,7 @@ h1 {
           text-decoration: none;   } 
        .contenedor2 img { 
         max-width: 60%;
-         height: 60px; 
+         height: 60%; 
          flex: 1 1 300px;
           margin-right: 20px; 
           border-radius: 30px; }
