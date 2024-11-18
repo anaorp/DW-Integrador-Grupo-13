@@ -197,7 +197,7 @@ footer {
     width: 24px;
     height: 24px;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     
     .navbar-collapse {
         background-color: var(--primary-green);
