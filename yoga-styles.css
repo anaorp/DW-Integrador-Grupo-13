@@ -97,7 +97,7 @@ h1 {
 }
      .contenedor1 img {
         order: 2; 
-        max-width: 30%; 
+        max-width: 20%; 
         height: auto; flex: 1 1 300px; 
         margin-left: 20px; 
         border-radius: 10px;
