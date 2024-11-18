@@ -99,8 +99,8 @@ h1 {
        background-color: #CA6750; 
        border-radius: 10px; } 
        .contenedor2 img { 
-        max-width: 20%;
-         height: auto; 
+        max-width: 40%;
+         height: 20px; 
          flex: 1 1 300px;
           margin-right: 20px; 
           border-radius: 30px; }
