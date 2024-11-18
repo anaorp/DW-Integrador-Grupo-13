@@ -97,7 +97,8 @@ h1 {
      margin: 20px auto;
       padding: 20px;
        background-color: #CA6750; 
-       border-radius: 10px; } 
+       border-radius: 10px; 
+          text-decoration: none;   } 
        .contenedor2 img { 
         max-width: 60%;
          height: 60px; 
