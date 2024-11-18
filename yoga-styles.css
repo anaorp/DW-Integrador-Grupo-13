@@ -149,7 +149,7 @@ font-family:'montserrat', sans-serif ;
         max-width: 20%;
          height: auto; 
          flex: 1 1 300px;
-          margin-right: 20px; 
+          margin-right: 10px; 
           border-radius: 30px; }
 .contenido-texto { flex: 2 1 400px; 
     text-align: left; 
