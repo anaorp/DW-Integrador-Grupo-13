@@ -92,12 +92,12 @@ h1 {
     align-items: center; 
     max-width: 100%;
     margin: 20px auto; padding: 20px; 
-    background-color: #CA6750;
+    background-color:  #72773E ;
     border-radius: 10px;
 }
      .contenedor1 img {
         order: 2; 
-        max-width: 60%; 
+        max-width: 40%; 
         height: auto; flex: 1 1 300px; 
         margin-left: 20px; 
         border-radius: 20px;
@@ -140,8 +140,8 @@ h1 {
        border-radius: 10px; 
           text-decoration: none;   } 
        .contenedor2 img { 
-        max-width: 60%;
-         height: 60%; 
+        max-width: 40%;
+         height: 40%; 
          flex: 1 1 300px;
           margin-right: 20px; 
           border-radius: 30px; }
