@@ -126,7 +126,9 @@ font-family:'montserrat', sans-serif ;
          text-align: center;
         } 
 .contenedor2 img { 
-    margin: 20px; }
+    margin: 20px;
+       width: 40PX;
+          }
     .contenido-texto {
          text-align: center;
      } 
