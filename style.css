@@ -277,13 +277,13 @@ footer {
         font-weight: 0;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .desktop-image {
         background-image: url('img/mobile.png'); 
         height: 300px; 
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .tamano-letra {
         font-size: 14px;
     }
