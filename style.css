@@ -283,7 +283,7 @@ footer {
         height: 300px; 
     }
 }
-@media (max-width: 590px) {
+@media (max-width: 480px) {
     .tamano-letra {
         font-size: 14px;
     }
@@ -350,5 +350,62 @@ footer {
         width: 70% !important; 
         margin: 0 auto !important;
         padding-top: 0px;
+    }
+}
+@media (max-width: 420px) {
+    .tamano-letra {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .modalidad-boton {
+        padding: 5px 10px;
+        font-size: 16px;
+        margin: 5px auto;
+        width: 90%; /* Adaptable a pantallas más pequeñas */
+        max-width: 220px;
+    }
+    .modalidad-card {
+        padding: 10px;
+        margin: 0 1.5em;
+        font-size: 10px;
+    }
+    .list-unstyled {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .directions-container {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .border-lines {
+        border-left: 1px solid var(--primary-coral);
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .text-content {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .testimonial-card-body h4.card-title {
+        font-size: 14px;
+    }
+    .testimonial-card-body .card-text {
+        font-size: 10px;
+    }
+    .rounded-image {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .desktop-image {
+        background-image: url('img/mobile.png');
+        height: 250px;
+    }
+    .footer-text {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .social-icons img {
+        width: 20px;
+        height: 20px;
     }
 }
