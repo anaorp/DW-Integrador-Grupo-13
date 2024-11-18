@@ -277,13 +277,13 @@ footer {
         font-weight: 0;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .desktop-image {
         background-image: url('img/mobile.png'); 
         height: 300px; 
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .tamano-letra {
         font-size: 14px;
     }
@@ -376,6 +376,7 @@ footer {
     .directions-container {
         font-size: 10px;
         padding: 0 10px;
+        margin-bottom: -25px;
     }
     .border-lines {
         border-left: 1px solid var(--primary-coral);
@@ -383,18 +384,22 @@ footer {
         margin: 0 auto;
     }
     .text-content {
-        font-size: 10px;
+        font-size: 12px;
         padding: 10px;
     }
+    h3{
+    font-size: 16px;
+    margin-top: -55px;
+    }
     .testimonial-card-body h4.card-title {
-        font-size: 14px;
+        font-size: 12px;
     }
     .testimonial-card-body .card-text {
         font-size: 10px;
     }
     .rounded-image {
-        width: 60%;
-        margin: 0 auto;
+        width: 80%;
+        margin: 15px;
     }
     .desktop-image {
         background-image: url('img/mobile.png');
