@@ -110,6 +110,7 @@ h1 {
               .contenido-texto h1 { 
                   font-size: 2.5em;
                   margin-bottom: 10px;
+                  text-decoration: none
               } 
               .contenido-texto p {
                   font-size: 1.2em; 
@@ -160,7 +161,12 @@ text-decoration: none;
 font-family:'montserrat', sans-serif ;
 }
 
- .contenedor2 contenido-texto p { font-size: 1.2em; line-height: 1.6; margin-bottom: 10px; }
+ .contenedor2 contenido-texto p { 
+     font-size: 1.2em;
+     line-height: 1.6; 
+     margin-bottom: 10px; 
+     text-decoration: none
+       }
   @media (max-width: 768px) { 
     .contenedor2 { 
         flex-direction: column;
@@ -185,11 +191,11 @@ font-family:'montserrat', sans-serif ;
     border-radius: 10px;
      .contenedor3 img {
         order: 2; 
-        max-width: 80px; 
+        width: 80px; 
         height: 80px; 
          flex: 1 1 300px; 
         margin-left: 20px; 
-        border-radius: 10px; 
+        border-radius: 20px; 
      }
         .contenido-texto { 
             order: 1;
@@ -199,7 +205,8 @@ font-family:'montserrat', sans-serif ;
                          }
               .contenido-texto h1 
                  { font-size: 2.5em; 
-                  margin-bottom: 10px; } 
+                  margin-bottom: 10px; 
+                  text-decoration: none  } 
               .contenido-texto p { 
                   font-size: 1.2em; 
                   line-height: 1.6; 
