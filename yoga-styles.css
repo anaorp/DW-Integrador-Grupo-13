@@ -64,9 +64,15 @@ h1 {
     font-weight: 600;
     margin-bottom: 20px;
     font-family:'montserrat', sans-serif;
-    text-decoration:underline ;
+   
    }
-
+.decorative-line {
+           width: 250px;
+           height: 2px;
+           background-color: #000;
+           margin: 0 auto 2rem;
+          position: relative;
+            }
  p { 
     font-size: 20px;
     font-weight: 400;
