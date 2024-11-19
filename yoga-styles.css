@@ -185,7 +185,7 @@ font-family:'montserrat', sans-serif ;
     border-radius: 10px;
      .contenedor3 img {
         order: 2; 
-        max-width: 40%; 
+        max-width: 20%; 
         height: auto; flex: 1 1 300px; 
         margin-left: 20px; 
         border-radius: 10px; }
@@ -210,21 +210,22 @@ font-family:'montserrat', sans-serif ;
                          text-align: center; } }
 
 
-.contenedor4{ display: flex; 
+.contenedor4{ 
+    display: flex; 
     flex-wrap: wrap; 
     align-items: center;
-     max-width: 100%; 
-     margin: 20px auto;
-      padding: 20px;
-       background-color: #CA6750; 
-       border-radius: 10px; 
+    max-width: 100%; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #CA6750 ; 
+    border-radius: 10px; 
             } 
        .contenedor4 img { 
         max-width: 20%;
-         height: auto; 
-         flex: 1 1 300px;
-          margin-right: 10px; 
-          border-radius: 30px;
+        height: auto; 
+        flex: 1 1 300px;
+        margin-right: 10px; 
+        border-radius: 30px;
        }
 .contenido-texto { flex: 2 1 400px; 
     text-align: left; 
@@ -241,7 +242,11 @@ text-decoration: none;
 font-family:'montserrat', sans-serif ;
 }
 
- .contenedor4 contenido-texto p { font-size: 1.2em; line-height: 1.6; margin-bottom: 10px; }
+ .contenedor4 contenido-texto p {
+     font-size: 1.2em; 
+     line-height: 1.6; 
+     margin-bottom: 10px; 
+ }
   @media (max-width: 768px) { 
     .contenedor4{ 
         flex-direction: column;
