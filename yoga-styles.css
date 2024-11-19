@@ -253,7 +253,29 @@ font-family:'montserrat', sans-serif ;
          text-align: center;
      } 
 }
+.rounded-image {
+    width: 60%;
+    height: 40%;
+    max-width: 100%;
+    margin: 30px;
+    border-radius: 40px;
+}
 
+.text-content {
+    font-size: 20px;
+    padding: 20px;
+    color: var(--light-bg);
+    margin: 20px;
+}
+
+.text-white {
+    font-size: 30px;
+    color: var(--light-bg);
+    margin-top: 10px;
+    margin-left: 30px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
 
 footer {
     background-color: var(--primary-green);
