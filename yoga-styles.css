@@ -191,8 +191,8 @@ font-family:'montserrat', sans-serif ;
     border-radius: 10px;
      .contenedor3 img {
         order: 2; 
-        width: 80px; 
-        height: 80px; 
+        width: 20px; 
+        height: 20px; 
          flex: 1 1 300px; 
         margin-left: 20px; 
         border-radius: 20px; 
