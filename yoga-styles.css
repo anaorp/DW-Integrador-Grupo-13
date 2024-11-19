@@ -107,7 +107,7 @@ h1 {
              text-align: left;
              color: var(--light-bg);
              }
-              .contenido-texto h1 { 
+              .contenedor1  contenido-texto h1 { 
                   font-size: 2.5em;
                   margin-bottom: 10px;
                   text-decoration: none;
