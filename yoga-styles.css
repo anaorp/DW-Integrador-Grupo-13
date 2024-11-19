@@ -293,7 +293,7 @@ font-family:'montserrat', sans-serif ;
 }
 
 footer {
-    background-color: var(--primary-green);
+    background-color: #72773E ;
     color: var(--light-bg);
     padding: 1rem 0;
     padding-bottom: 0.5rem;
@@ -373,8 +373,11 @@ footer {
     }
 
     header .container {
-        padding-top: 0;
-        padding-bottom: 0;
+          padding-top: 2rem;
+        padding-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
     }
 
     footer {
