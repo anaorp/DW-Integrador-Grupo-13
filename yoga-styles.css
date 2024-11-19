@@ -148,8 +148,8 @@ h1 {
        border-radius: 10px; 
           text-decoration: none;   } 
        .contenedor2 img { 
-        max-width: 60px;
-         height: 40px; 
+        max-width: 30%;
+         height: 15%; 
          flex: 1 1 300px;
           margin-right: 20px; 
           border-radius: 30px; }
