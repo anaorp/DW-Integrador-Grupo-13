@@ -184,7 +184,7 @@ font-family:'montserrat', sans-serif ;
          text-align: center;
         } 
 .contenedor2 img { 
-    margin: 20px;
+       margin: 0 0 20px 0;
        width: 100PX;
           }
     .contenido-texto {
@@ -284,7 +284,8 @@ font-family:'montserrat', sans-serif ;
          text-align: center;
         } 
 .contenedor4 img { 
-    margin: 20px; }
+      margin: 0 0 20px 0;
+}
     .contenido-texto {
          text-align: center;
      } 
