@@ -361,7 +361,7 @@ footer {
         padding: 5px 10px;
         font-size: 16px;
         margin: 5px auto;
-        width: 90%; 
+        width: 90%; /* Adaptable a pantallas más pequeñas */
         max-width: 220px;
     }
     .modalidad-card {
