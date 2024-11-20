@@ -98,10 +98,15 @@ header {
 
 .contenedor h3 {
     text-align: center;
-    text-decoration: underline;
     color: var(--light-bg);
 }
-
+.decorative-line {
+           width: 250px;
+           height: 2px;
+           background-color: #000;
+           margin: 0 auto 2rem;
+          position: relative;
+            }
 
 footer {
     background-color: var(--primary-green);
