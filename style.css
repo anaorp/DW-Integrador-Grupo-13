@@ -361,7 +361,7 @@ footer {
         padding: 5px 10px;
         font-size: 16px;
         margin: 5px auto;
-        width: 90%; /* Adaptable a pantallas más pequeñas */
+        width: 90%; 
         max-width: 220px;
     }
     .modalidad-card {
@@ -406,7 +406,7 @@ footer {
         height: 250px;
     }
     .footer-text {
-        font-size: 10px;
+        font-size: 12px;
         padding: 5px;
     }
     .social-icons img {
