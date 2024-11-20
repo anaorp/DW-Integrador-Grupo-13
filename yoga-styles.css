@@ -154,12 +154,14 @@ h1 {
          flex: 1 1 300px;
           margin-right: 20px; 
           border-radius: 30px;
+         margin: 30px;
        }
 .contenido-texto { flex: 2 1 400px; 
     text-align: left; 
     color: var(--light-bg);
     font-family:'montserrat', sans-serif ;
-    margin:20px;
+    margin:30px;
+                  
  } 
 
 
@@ -204,6 +206,7 @@ font-family:'montserrat', sans-serif ;
         height: auto; flex: 1 1 300px; 
         margin-left: 20px; 
         border-radius: 20px;
+           margin: 30px;
      }
      .contenido-texto { order: 1;
              flex: 2 1 400px;
@@ -253,12 +256,13 @@ font-family:'montserrat', sans-serif ;
         flex: 1 1 300px;
         margin-right: 10px; 
         border-radius: 30px;
+             margin: 30px;
        }
 .contenido-texto { flex: 2 1 400px; 
     text-align: left; 
     color: var(--light-bg);
     font-family:'montserrat', sans-serif ;
-    margin:20px;
+    margin:30px;
  } 
 
 
