@@ -131,11 +131,12 @@ h1 {
                     text-align: center; 
                 }
                  .contenedor1 img { 
+                     width: 100%;
                      order: 1;
                      margin: 0 0 20px 0;
                  }
                      .contenido-texto {
-                        order: 2; 
+     
                         text-align: center;
                      } }
 
@@ -184,8 +185,9 @@ font-family:'montserrat', sans-serif ;
          text-align: center;
         } 
 .contenedor2 img { 
-       margin: 0 0 20px 0;
+    width: 100%;
         order: 1;
+      margin: 0 0 20px 0;
           }
     .contenido-texto {
          text-align: center;
@@ -226,11 +228,13 @@ font-family:'montserrat', sans-serif ;
                @media (max-width: 768px) { 
                 .contenedor3{ 
                     flex-direction: column; 
-                    text-align: center; 
+                    text-align: center;
+                    
                 }
                  .contenedor3 img { 
                      order: 1;
                      margin: 0 0 20px 0;
+                       width: 100%;
                  }
                      .contenido-texto {
                         order: 2; 
@@ -285,6 +289,7 @@ font-family:'montserrat', sans-serif ;
         } 
 .contenedor4 img { 
       margin: 0 0 20px 0;
+      width: 100%;
 }
     .contenido-texto {
          text-align: center;
