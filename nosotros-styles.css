@@ -93,7 +93,7 @@ header {
 .contenedor p {
     text-align: center;
     color: var(--light-bg);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contenedor h3 {
