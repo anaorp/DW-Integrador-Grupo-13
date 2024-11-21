@@ -101,9 +101,9 @@ header {
     color: var(--light-bg);
 }
 .decorative-line {
-           width: 250px;
+           width: 150px;
            height: 2px;
-           background-color: #000;
+           background-color: #F9F7EE ;
            margin: 0 auto 2rem;
           position: relative;
             }
