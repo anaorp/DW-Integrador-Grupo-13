@@ -247,6 +247,11 @@ footer .col-md-6 {
         font-weight: 400;
         margin-right: 0;
     }
+    .contenedor {
+    background-color: var(--primary-coral);
+    padding: 80px;
+    height: 1120 px; 
+}
     .contenedor p {
     text-align: center;
     color: var(--light-bg);
