@@ -251,6 +251,6 @@ footer .col-md-6 {
     text-align: center;
     color: var(--light-bg);
     font-size: 18px;
-       margin:40px;   
+       margin: 0 0;   
 }
 }
