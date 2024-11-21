@@ -324,7 +324,7 @@ footer {
         margin-right: 2em;
     }
     .text-content {
-        font-size: 12px; 
+        font-size: 18px; 
         padding-bottom: 0px;
         padding-left: 50px;
         padding-right: 50px;
@@ -354,14 +354,14 @@ footer {
 }
 @media (max-width: 420px) {
     .tamano-letra {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 1.4;
     }
     .modalidad-boton {
         padding: 5px 10px;
         font-size: 16px;
         margin: 5px auto;
-        width: 90%; /* Adaptable a pantallas más pequeñas */
+        width: 90%; 
         max-width: 220px;
     }
     .modalidad-card {
@@ -374,7 +374,7 @@ footer {
         padding: 10px;
     }
     .directions-container {
-        font-size: 10px;
+        font-size: 14px;
         padding: 0 10px;
         margin-bottom: -25px;
     }
@@ -384,7 +384,7 @@ footer {
         margin: 0 auto;
     }
     .text-content {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px;
     }
     h3{
@@ -392,14 +392,14 @@ footer {
     margin-top: -55px;
     }
     .testimonial-card-body h4.card-title {
-        font-size: 12px;
+        font-size: 14px;
     }
     .testimonial-card-body .card-text {
-        font-size: 10px;
+        font-size: 12px;
     }
     .rounded-image {
         width: 80%;
-        margin: 15px;
+        margin: 50px;
     }
     .desktop-image {
         background-image: url('img/mobile.png');
