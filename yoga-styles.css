@@ -129,7 +129,6 @@ h1 {
                 .contenedor1{ 
                     flex-direction: column; 
                     text-align: center; 
-                     margin: 20px ; 
                 }
                  .contenedor1 img { 
                      width: 100%;
@@ -137,7 +136,7 @@ h1 {
                      margin: 0 0 20px 0;
                  }
                      .contenido-texto {
-     
+                          margin: 20px ;  
                         text-align: center;
                      } }
 
@@ -184,7 +183,7 @@ font-family:'montserrat', sans-serif ;
     .contenedor2 { 
         flex-direction: column;
          text-align: center;
-          margin: 20px ; 
+          
         } 
 .contenedor2 img { 
     width: 100%;
@@ -193,6 +192,7 @@ font-family:'montserrat', sans-serif ;
           }
     .contenido-texto {
          text-align: center;
+          margin: 20px ; 
      } 
 }
 .contenedor3 {
@@ -231,7 +231,7 @@ font-family:'montserrat', sans-serif ;
                 .contenedor3{ 
                     flex-direction: column; 
                     text-align: center;
-                      margin: 20px ; 
+
                 }
                  .contenedor3 img { 
                      order: 1;
@@ -241,6 +241,7 @@ font-family:'montserrat', sans-serif ;
                      .contenido-texto {
                         order: 2; 
                         text-align: center;
+                           margin: 20px ; 
                      } }
 
     
@@ -288,7 +289,7 @@ font-family:'montserrat', sans-serif ;
     .contenedor4{ 
         flex-direction: column;
          text-align: center;
-          margin: 20px ; 
+        
         } 
 .contenedor4 img { 
       margin: 0 0 20px 0;
@@ -296,7 +297,8 @@ font-family:'montserrat', sans-serif ;
 }
     .contenido-texto {
          text-align: center;
-     } 
+  margin: 20px ; 
+    } 
 }
 .rounded-image {
     width: 60%;
