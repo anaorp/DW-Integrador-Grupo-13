@@ -136,7 +136,7 @@ h1 {
                      margin: 0 0 20px 0;
                  }
                      .contenido-texto {
-                          margin: 20px ;  
+                          margin: 16px ;  
                         text-align: center;
                      } }
 
@@ -192,7 +192,7 @@ font-family:'montserrat', sans-serif ;
           }
     .contenido-texto {
          text-align: center;
-          margin: 20px ; 
+          margin: 16px ; 
      } 
 }
 .contenedor3 {
@@ -241,7 +241,7 @@ font-family:'montserrat', sans-serif ;
                      .contenido-texto {
                         order: 2; 
                         text-align: center;
-                           margin: 20px ; 
+                           margin: 16px ; 
                      } }
 
     
