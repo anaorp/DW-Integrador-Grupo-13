@@ -185,7 +185,7 @@ font-family:'montserrat', sans-serif ;
         } 
 .contenedor2 img { 
        margin: 0 0 20px 0;
-       width: 100PX;
+        order: 1;
           }
     .contenido-texto {
          text-align: center;
