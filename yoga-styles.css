@@ -128,17 +128,18 @@ h1 {
 .contenedor2{ display: flex; 
     flex-wrap: wrap; 
     align-items: center;
-     max-width: 100%; 
-     margin: 20px auto;
-      padding: 20px;
-       background-color: #CA6750; 
-       border-radius: 10px; 
-          text-decoration: none;   } 
+    max-width: 100%; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color:  #CA6750; 
+    border-radius: 10px; 
+    text-decoration: none;  
+            } 
        .contenedor2 img { 
         max-width: 40%;
          height: 10%; 
          flex: 1 1 300px;
-          margin-right: 20px; 
+        margin-right: 20px; 
           border-radius: 20px;
          margin: 30px;
        }
