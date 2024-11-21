@@ -250,7 +250,7 @@ footer .col-md-6 {
     .contenedor p {
     text-align: center;
     color: var(--light-bg);
-    font-size: 18px;
-       margin: 0 0;   
+    font-size: 14px;
+       margin: 10px;   
 }
 }
