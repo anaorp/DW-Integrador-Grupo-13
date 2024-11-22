@@ -190,8 +190,8 @@ h1 {
                                 } 
                         .contenedor2 img { 
                            order: 1;
-                           width: 100%;
-                            max-width: 100%; 
+                           width: 90%;
+                            max-width: 90%; 
                             flex: none; 
                             margin: 0 0 20px 0;
                                 }
@@ -239,8 +239,8 @@ h1 {
                                         }
                                          .contenedor3 img { 
                                                 order: 1;
-                                            width: 100%;
-                                            max-width: 100%; 
+                                            width: 90%;
+                                            max-width: 90%; 
                                             flex: none; 
                                             margin: 0 0 20px 0;
                                          }
@@ -296,10 +296,10 @@ h1 {
                                 } 
                         .contenedor4 img { 
                                  order: 1;
-                                            width: 100%;
-                                            max-width: 100%; 
-                                            flex: none; 
-                                            margin: 0 0 20px 0;
+                                 width: 90%;
+                                 max-width: 90%; 
+                                 flex: none; 
+                                 margin: 0 0 20px 0;
                         }
                             .contenido-texto {
                                  text-align: center;
