@@ -196,7 +196,54 @@ h1 {
                                  text-align: center;
                              } 
                         }
+                     .contenedor3 {
+                            display: flex; 
+                            flex-wrap: wrap; 
+                            align-items: center; 
+                            max-width: 100%;
+                            margin: 20px auto; padding: 20px; 
+                            background-color:  #72773E ;
+                            border-radius: 10px;
+                        }
+                             .contenedor3 img {
+                                order: 2; 
+                                max-width: 40%; 
+                                height: auto; flex: 1 1 300px; 
+                                margin-left: 20px; 
+                                border-radius: 20px;
+                                   margin: 30px;
+                             }
+                             .contenido-texto { order: 1;
+                                     flex: 2 1 400px;
+                                     text-align: left;
+                                     color: var(--light-bg);
+                                     }
+                                      .contenido-texto h1 { 
+                                          font-size: 2.5em;
+                                          margin-bottom: 10px;
+                                          text-decoration: none
+                                      } 
+                                      .contenido-texto p {
+                                          font-size: 1.2em; 
+                                          line-height: 1.6; 
+                                          margin-bottom: 10px; 
+                                      }
+                                       @media (max-width: 768px) { 
+                                        .contenedor3{ 
+                                            flex-direction: column; 
+                                            text-align: center;
                         
+                                        }
+                                         .contenedor3 img { 
+                                             order: 1;
+                                             margin: 0 0 20px 0;
+                                               width: 100%;
+                                         }
+                                             .contenido-texto {
+                                                order: 2; 
+                                                text-align: center;
+                                                   margin: 16px ; 
+                                             } }    
 
 .rounded-image {
     width: 60%;
