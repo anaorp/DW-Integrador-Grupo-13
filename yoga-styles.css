@@ -138,6 +138,7 @@ h1 {
                                             max-width: 90%; 
                                             flex: none; 
                                             margin: 20px ;
+                                             justify-content: center; 
                                          }
                                       .contenido-texto {   
                                           order: 2; 
