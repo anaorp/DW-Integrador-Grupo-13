@@ -131,7 +131,6 @@ h1 {
                                         }
                                          .contenedor1 img { 
                                              order: 1;
-                                             margin: 0 0 20px 0;
                                                width: 100%;
                                          }
                                              .contenido-texto {
@@ -188,8 +187,8 @@ h1 {
                                  text-align: center;
                                 } 
                         .contenedor2 img { 
-                            margin: 50px;
-                                 width: 40PX;
+                        
+                                 width: 100%;
                                  
                               align-items: center;}
                             .contenido-texto {
