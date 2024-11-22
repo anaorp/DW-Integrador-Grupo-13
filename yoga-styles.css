@@ -243,7 +243,61 @@ h1 {
                                                 order: 2; 
                                                 text-align: center;
                                                    margin: 16px ; 
-                                             } }    
+                                             } }  
+
+ .contenedor4{ 
+                            display: flex; 
+                            flex-wrap: wrap; 
+                            align-items: center;
+                            max-width: 100%; 
+                            margin: 20px auto;
+                            padding: 20px;
+                            background-color: #CA6750 ; 
+                            border-radius: 10px; 
+                                    } 
+                               .contenedor4 img { 
+                                max-width: 40%;
+                                height: 30%; 
+                                flex: 1 1 300px;
+                                margin-right: 10px; 
+                                border-radius: 20px;
+                                     margin: 30px;
+                               }
+                        .contenido-texto { flex: 2 1 400px; 
+                            text-align: left; 
+                            color: var(--light-bg);
+                            font-family:'montserrat', sans-serif ;
+                            margin:30px;
+                         } 
+                        
+                        
+                        .contenedor4 contenido-texto h1 {
+                             font-size: 2.5em; 
+                             margin-bottom: 10px;
+                        text-decoration: none; 
+                        font-family:'montserrat', sans-serif ;
+                        }
+                        
+                         .contenedor4 contenido-texto p {
+                             font-size: 1.2em; 
+                             line-height: 1.6; 
+                             margin-bottom: 10px; 
+                         }
+                          @media (max-width: 768px) { 
+                            .contenedor4{ 
+                                flex-direction: column;
+                                 text-align: center;
+                                
+                                } 
+                        .contenedor4 img { 
+                              margin: 0 0 20px 0;
+                              width: 100%;
+                        }
+                            .contenido-texto {
+                                 text-align: center;
+                          margin: 20px ; 
+                            } 
+                        }
 
 .rounded-image {
     width: 60%;
