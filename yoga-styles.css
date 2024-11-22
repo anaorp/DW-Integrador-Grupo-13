@@ -127,7 +127,7 @@ h1 {
                                         .contenedor1{ 
                                             flex-direction: column; 
                                             text-align: center;
-                        
+                                             max-width: 100%;
                                         }
                                          .contenedor1 img { 
                                              order: 1;
