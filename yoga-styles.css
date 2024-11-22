@@ -92,8 +92,10 @@ h1 {
       }
 }
 .contenedor1 { display: flex; flex-wrap: wrap; 
-    align-items: center; max-width: 100%;
-     margin: 20px auto; padding: 20px; 
+    align-items: center; 
+              max-width: 100%;
+     margin: 20px auto; 
+              padding: 20px; 
      background-color:#72773E;
       border-radius: 10px; 
              }
@@ -124,7 +126,57 @@ h1 {
                         order: 2; 
                          text-align: center; } 
                }
-
+  .contenedor2{ display: flex; 
+                            flex-wrap: wrap; 
+                            align-items: center;
+                             max-width: 100%; 
+                             margin: 20px auto;
+                              padding: 20px;
+                               background-color: #CA6750; 
+                               border-radius: 10px; } 
+                               .contenedor2 img { 
+                                max-width: 40%;
+                                 height: auto; 
+                                 flex: 1 1 300px;
+                                  margin-right: 20px; 
+                                  border-radius: 10px;
+                                  text-align: right;
+                                margin: 30px; }
+                        .contenido-texto { flex: 2 1 400px; 
+                            text-align: right; 
+                            color: var(--light-bg);
+                            font-family:'montserrat', sans-serif ;
+                            margin:30px;
+                            text-align: left;
+                            margin: ;
+                         } 
+                        
+                        .contenedor2 contenido-texto h1 {
+                             font-size: 2.5em; 
+                             margin-bottom: 10px;
+                        text-decoration: none; 
+                        font-family:'montserrat', sans-serif ;
+                        }
+                        
+                         .contenedor2 contenido-texto p
+                          { font-size: 1.2em; 
+                            line-height: 1.6;
+                             margin-bottom: 10px; }
+                          @media (max-width: 768px) { 
+                            .contenedor2 { 
+                                flex-direction: column;
+                                 text-align: center;
+                                } 
+                        .contenedor2 img { 
+                            margin: 50px;
+                                 width: 40PX;
+                                 
+                              align-items: center;}
+                            .contenido-texto {
+                                 text-align: center;
+                             } 
+                        }
+                        
 
 .rounded-image {
     width: 60%;
