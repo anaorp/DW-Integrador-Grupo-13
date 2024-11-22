@@ -190,10 +190,12 @@ h1 {
                                  text-align: center;
                                 } 
                         .contenedor2 img { 
-                        
-                                 width: 100%;
-                                 
-                              align-items: center;}
+                           order: 1;
+                           width: 100%;
+                            max-width: 100%; 
+                            flex: none; 
+                            margin: 0 0 20px 0;
+                                }
                             .contenido-texto {
                                  text-align: center;
                              } 
@@ -237,9 +239,11 @@ h1 {
                         
                                         }
                                          .contenedor3 img { 
-                                             order: 1;
-                                             margin: 0 0 20px 0;
-                                               width: 100%;
+                                                order: 1;
+                                            width: 100%;
+                                            max-width: 100%; 
+                                            flex: none; 
+                                            margin: 0 0 20px 0;
                                          }
                                              .contenido-texto {
                                                 order: 2; 
@@ -292,8 +296,11 @@ h1 {
                                 
                                 } 
                         .contenedor4 img { 
-                              margin: 0 0 20px 0;
-                              width: 100%;
+                                 order: 1;
+                                            width: 100%;
+                                            max-width: 100%; 
+                                            flex: none; 
+                                            margin: 0 0 20px 0;
                         }
                             .contenido-texto {
                                  text-align: center;
