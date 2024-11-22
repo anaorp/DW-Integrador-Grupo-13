@@ -127,7 +127,8 @@ h1 {
                                        @media (max-width: 768px) { 
                                         .contenedor1{ 
                                             flex-direction: column; 
-                                            text-align: center;
+                                             justify-content: center; 
+                                              align-items: center;                                        
                                              max-width: 100%;
                                         }
                                          .contenedor1 img { 
