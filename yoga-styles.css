@@ -442,6 +442,13 @@ footer {
           padding-top: 0;
         padding-bottom: 0;
     }
+    .container {
+        padding-top: 0rem;
+        padding-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
     footer {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
