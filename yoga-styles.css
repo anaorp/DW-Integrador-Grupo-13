@@ -454,8 +454,13 @@ footer {
     .navbar-toggler-icon-custom {
     width: 24px;
     height: 24px;
+    margin-right:35px;
 }
-
+av-link.rounded-nav-link:hover {
+    background-color: var(--light-bg);
+    color: var(--primary-green) !important;
+    margin:35px;
+}
     footer {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
