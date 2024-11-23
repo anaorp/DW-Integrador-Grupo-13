@@ -180,7 +180,6 @@ footer .col-md-6 {
         text-align: left;
          margin-left: 35px;
     }
-
     .nav-link.rounded-nav-link:hover,
     .nav-link.rounded-nav-link.active {
         background-color: var(--primary-green);
@@ -217,7 +216,7 @@ footer .col-md-6 {
     .logo {
         width: 70px;
         height: auto;
-        margin-left: 38px;
+        margin-left: 36px;
     }
      
     footer {
