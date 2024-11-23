@@ -202,7 +202,13 @@ h1 {
                     margin: 20px ;
                                 }
                  .contenido-texto {
-                    text-align: center;
+                                      order: 2; 
+                                      text-align: center;
+                                      margin: 0; 
+                                      flex: 1 1 auto; 
+                                      width: 100%; 
+                                      max-width: 100%;
+                                      font-size: 16px; 
                              } 
                         }
 
@@ -253,9 +259,13 @@ h1 {
                                              flex: none; 
                                          }
                                              .contenido-texto {
-                                                order: 2; 
-                                                text-align: center;
-                                                   margin: 16px ; 
+                                      order: 2; 
+                                      text-align: center;
+                                      margin: 0; 
+                                      flex: 1 1 auto; 
+                                      width: 100%; 
+                                      max-width: 100%;
+                                      font-size: 16px; 
                                              } }  
 
                     .contenedor4{ 
@@ -304,17 +314,24 @@ h1 {
                                 } 
                         .contenedor4 img { 
                                  order: 1;
-                                 width: 90%;
-                                 max-width: 90%; 
+                                 width: 100%;
+                                 max-width: 100%; 
                                  flex: none; 
                                  margin: 20px auto;
                                  flex: none; 
                         }
                             .contenido-texto {
-                                 text-align: center;
-                          margin: 20px ; 
-                            } 
+                                 
+                                      order: 2; 
+                                      text-align: center;
+                                      margin: 0; 
+                                      flex: 1 1 auto; 
+                                      width: 100%; 
+                                      max-width: 100%;
+                                      font-size: 16px; 
                         }
+                          }
+
 
 .rounded-image {
     width: 60%;
