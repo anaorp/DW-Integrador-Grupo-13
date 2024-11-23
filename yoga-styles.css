@@ -147,8 +147,7 @@ h1 {
                                       flex: 1 1 auto; 
                                       width: 100%; 
                                       max-width: 100%;
-                                      font-size: 16px; 
-                                          
+                                      font-size: 16px;                                           
                                                        } }
 
 
@@ -191,13 +190,15 @@ h1 {
                      margin-bottom: 10px; }
 @media (max-width: 768px) { 
                 .contenedor2 { 
-                     flex-direction: column;
-                     text-align: center;
+                     flex-direction: column; 
+                    justify-content: center; 
+                    align-items: center;                                        
+                    max-width: 100%;
                                 } 
                  .contenedor2 img { 
                     order: 1;
-                    width: 100%;
-                    max-width: 100%; 
+                    width: 90%;
+                    max-width: 90%; 
                     flex: none; 
                     margin: 20px ;
                                 }
