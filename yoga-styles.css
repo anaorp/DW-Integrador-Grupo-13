@@ -450,6 +450,12 @@ footer {
         padding-right: 3rem;
     }
     
+    .navbar-toggler-icon-custom {
+    width: 24px;
+    height: 24px;
+        margin-right:30px;
+}
+
     footer {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
