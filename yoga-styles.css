@@ -370,7 +370,8 @@ footer {
     font-weight: 600;
     font-style: italic;
     color: var(--light-bg);
-}
+      text-align: left;
+}  
 
 .social-icons {
     display: flex;
