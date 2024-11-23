@@ -197,6 +197,12 @@ footer .col-md-6 {
         padding-bottom: 0;
     }
 
+    .container {
+        padding-top: 0rem;
+        padding-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
     .navbar {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
